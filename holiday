@@ -1,0 +1,289 @@
+<doctype html>
+    <html>
+        <head>
+            <title> Holidays </title>
+            <meta name="viewport" content="width=device-width, initial=scale:1.0;">
+    
+            <style>
+    
+                body {
+                    background-image: url('https://cdn.discordapp.com/attachments/710690800996188234/1048222789766750288/vTedMspJy41S4VehqlqOQYRGLwuNvY.png');
+                    background-repeat: no-repeat; 
+                    background-size: cover;
+                    background-attachment: fixed; 
+                    font-family:sans-serif;
+                    overflow: scroll;
+    overflow-x: hidden;
+  
+  }
+  ::-webkit-scrollbar {
+  width: 0px; 
+  }
+     
+                nav {
+                    color:rgb(226, 233, 214);
+                    position: fixed;
+                    left: 26;
+                    top: 22px;
+                    width: 10%;
+                    overflow: auto;
+                    box-shadow: 0 0 0.6rem rgb(247, 0, 255);
+                    -webkit-box-shadow: 20px rgb(255, 0, 170);
+                    border-radius: 70px;
+                    
+                }
+    
+                .nav {
+                    float:center;
+                    display:block;
+                    text-align:center;
+                    padding:16px;
+                    text-decoration:none;
+                    font-size:14px;
+                    font-family:monospace;
+                }
+
+                nav a:link, nav a:visited {
+                    color:rgb(226, 233, 214);
+                    background-color:rgba(248, 55, 255, 0.61);
+                  
+                }
+    
+                nav a:hover, nav a:active {
+                    color:rgb(226, 233, 214);
+                    background-color:rgba(221, 54, 168, 0.466);
+                    
+                }
+    
+                @media (max-width: 600px) {
+                .right, .left {
+                max-width: 100%;
+                height: auto;
+                } 
+                
+                .nav {
+                    font-size:8px;
+                    padding:10px;
+                }
+                }
+            
+    
+    h1 {
+        text-align:center;
+        font-size: 60px;
+        color:rgb(0, 157, 219);
+        padding:12px;
+        font-family:monospace;
+    }
+
+    h3 {
+        text-align:center;
+        color:rgb(0, 157, 219);
+        font-family:monospace;
+    }
+
+    h4 {
+        
+        color:rgb(255, 255, 255);
+        font-family:monospace;
+    }
+
+    *{
+        box-sizing: border-box}
+.mySlides {
+    display: none}
+img {
+vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgba(255, 0, 255, 0.582);
+  font-weight: bold;
+  font-size: 33px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 0, 234, 0.205);
+}
+
+.text {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  background-color: rgba(255, 138, 245, 0.616);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(255, 0, 200, 0.39);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ff00d4;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.container {
+  position: relative;
+}
+
+.blue-box {
+  position: relative;
+  font-size: 20px;
+  font-family: monospace;
+  z-index: 1;
+  background: rgba(46, 144, 255, 0.479);
+  height: 92px;
+  margin: 102px;
+  width: 20%;
+  text-align:center;
+}
+
+.hotpink-box {
+
+  position: absolute;
+  z-index: 33; 
+  background: rgb(224, 70, 255);
+  height: 110px;  
+  width: 90%;
+  left: 50px;
+  top: 50px;
+text-align:center;
+}
+
+            </style>
+        </head>
+    
+        <nav>
+            <a href="#" class="nav">Raw element link (github)</a>
+       
+            
+        </nav>
+       
+            <header>
+                <h1> My Holiday</h1>
+                <h3> a project by KRivadillo</h3>
+            </header>
+            <body>
+    
+          
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">StarCity 2022</div>
+      <img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t1.15752-9/323942150_3332621600387745_5449087956750147479_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFjD8q55lAEcUh6sKi3s6x-x28V3cuX-J3HbxXdy5f4nZXWnAiktoi_Zl6g7JwIeNpyoSXeHuGYlM7Bos2yZkwu&_nc_ohc=wzf6Co9nyQIAX8Cbh76&_nc_ht=scontent.fmnl8-2.fna&oh=03_AdSLn8JWRO5KDPph2K14qidANLMbQCMEVZPNQpSJNFmJoA&oe=63DDF655" style="width:100%">
+      <div class="text">My family and I went to Star City to celebrate Christmas after the 25th of December.</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">Cosplay Matsuri 2022</div>
+      <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/318369568_1313584766152561_5753218754108381757_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEwhMcSxDzKhvv1QXRdlNSZF7ByB81lbJkXsHIHzWVsmTEgCZe7olNdjHtcmQVMwjkEosZ62zzZjiKPHQhhXl4b&_nc_ohc=_eJculntCGgAX-gUrnP&_nc_ht=scontent.fmnl8-3.fna&oh=03_AdSlUa-gyUO6uGUefiiHie-9wsDxJyH0ZbCi6kl2W44eUQ&oe=63DDE777" style="width:100%">
+      <div class="text">After attending Starcity, I headed to a cosplay event at SMX.</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">New Year </div>
+      <img src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.15752-9/322113524_707736664123646_6294065206775515964_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEg-sMD1KPw24q1lG9Zl1VuVzFYYvUqoKxXMVhi9SqgrNdmQ4dhJGs8IgcpC9EB5k9V3vum9iSMOXgeuu-gfr9Q&_nc_ohc=373z3eOIIEoAX_iaDwc&_nc_ht=scontent.fmnl8-1.fna&oh=03_AdRxqmAK4CubPcM6b279zGtw67ydtiBFdugyhidhsg91uw&oe=63DE02BC" style="width:100%">
+      <div class="text">I had a meal at home on New Year's Eve with my family.</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">⇦</a>
+    <a class="next" onclick="plusSlides(1)">⇨</a>
+    
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <div class="container">
+        <div class="blue-box"><h4>a short message about holidays from me:</h4></div>
+        <div class="hotpink-box"><h4>Spending the holidays with your family is a wonderful opportunity to have fun and create lasting memories. Whether you're participating<br> in traditional activities like noche buena, or trying something new like taking a trip to a nearby ski resort,<br> there are endless ways to have a good time with your loved ones. Don't be afraid to embrace your inner child and let go of your responsibilities for a while. <br>Play  games, have a nice party, or build a strong relationship with your friends. The holidays are a time to relax and enjoy each other's company,<br> so have fun and make the most of it!</h4></div>
+      <br><br><br><br><br>
+      </div>
+
+            </body>
+            <footer><marquee><h1>Webpage by Rivadillo</h1></marquee></footer>
+          <section>
+  
+              <div class="right" id="bottom">
+            
+  
+              </div>
+          </section>
+  
+      </body>
+  
+  </html>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
