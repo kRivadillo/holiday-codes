@@ -80,14 +80,30 @@
         text-align:center;
         color:rgb(0, 157, 219);
         font-family:monospace;
+        text-shadow: #000000;
     }
 
+    
+    h2 {
+        text-align:center;
+        color:rgb(0, 157, 219);
+        font-family:monospace;
+       text-shadow: #ff00d4;
+    }
     h4 {
         
         color:rgb(255, 255, 255);
         font-family:monospace;
     }
-
+    p.test2 {
+        position: relative;
+  margin: auto;
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
     *{
         box-sizing: border-box}
 .mySlides {
@@ -136,7 +152,24 @@ vertical-align: middle;}
   font-family: monospace;
   background-color: rgba(255, 138, 245, 0.616);
 }
+.dropdown {
 
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .dot {
   cursor: pointer;
   height: 15px;
@@ -176,6 +209,7 @@ vertical-align: middle;}
   margin: 102px;
   width: 20%;
   text-align:center;
+  opacity: 1.2;
 }
 
 .hotpink-box {
@@ -190,6 +224,49 @@ vertical-align: middle;}
 text-align:center;
 }
 
+.Div2 {
+          background-image: url('https://media.tenor.com/MrG-ARyhCa0AAAAd/anya-rick-roll.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: cover;
+        }
+
+        div.gallery {
+            background-image: url('https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=681&h=383&crop=1');
+  margin: 5px;
+  border: 1px solid #ccc;
+ float: initial;
+  width: 180px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+    height: 200px;
+  
+  background-image: linear-gradient(to right, red , yellow);
+
+}
+
+p {
+text-align: center;
+
+}
             </style>
         </head>
     
@@ -245,6 +322,108 @@ text-align:center;
       <br><br><br><br><br>
       </div>
 
+      <div class="Div2">
+       
+<h2 style="font-size: 65; color: rgb(255, 255, 255); text-align: center;">Rick Roll</h2>
+<p class="test2">We're no strangers to love
+    You know the rules and so do I (do I)
+    A full commitment's what I'm thinking of
+    You wouldn't get this from any other guy</p>
+
+    <div class="dropdown">
+        <span><h3 style="color: #ffffff; font-size: 20px; text-align: center; ">Hover for lyrics</h3></span>
+        <div class="dropdown-content">
+        <p>"Never Gonna Give You Up"
+            <br>
+            We're no strangers to love
+            You know the rules and so do I
+            A full commitment's what I'm thinking of
+            You wouldn't get this from any other guy
+            <br>
+            I just wanna tell you how I'm feeling
+            Gotta make you understand
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            <br>
+            We've known each other for so long
+            Your heart's been aching, but
+            You're too shy to say it
+            Inside, we both know what's been going on
+            We know the game and we're gonna play it
+            <br>
+            And if you ask me how I'm feeling
+            Don't tell me you're too blind to see
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            <br>
+            (Ooh, give you up)
+            (Ooh, give you up)
+            Never gonna give, never gonna give
+            (Give you up)
+            Never gonna give, never gonna give
+            (Give you up)
+            <br>
+            We've known each other for so long
+            Your heart's been aching, but
+            You're too shy to say it
+            Inside, we both know what's been going on
+            We know the game and we're gonna play it
+            <br>
+            I just wanna tell you how I'm feeling
+            Gotta make you understand
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            <br>
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you
+            </p>
+        </div>
+      </div>
+    <div class="gallery">
+        <a target="_blank" href="https://media.tenor.com/yheo1GGu3FwAAAAC/rick-roll-rick-ashley.gif">
+          <img src="https://media.tenor.com/yheo1GGu3FwAAAAC/rick-roll-rick-ashley.gif" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Rick Astley</div>
+      </div>
+      
+     
+      <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br>
+      </div>
+      
+
             </body>
             <footer><marquee><h1>Webpage by Rivadillo</h1></marquee></footer>
           <section>
@@ -286,4 +465,3 @@ text-align:center;
       dots[slideIndex-1].className += " active";
     }
     </script>
-    
